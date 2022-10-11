@@ -1,0 +1,17 @@
+{
+  "name": "triggered-animation-scroll123",
+  "version": "1.0.0",
+  "description": "SchoolFleet_website_TriggeredAnimation- 08/10/2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+
+  ],
+  "author": "tkarthikeyan@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

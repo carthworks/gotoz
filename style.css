@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,100;1,200&display=swap');
+
+/*@import url(https://indestructibletype.com/fonts/Jost.css);
+
+https://dribbble.com/hoangpts
+*/
+.square {
+   
+    background: teal;
+
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.page-wrapper {
+    overflow-x: hidden;
+}
+
+.landing-bg {
+   /* height:564px;*/
+    background: linear-gradient(90deg,#0d274c,#1c53a3);
+    
+}
+.landing-bg-right-pic{
+    overflow: hidden;
+    background-color: rgba(75,37,187,0);
+    background-image: url('/images/School-Bus-Tracking.jpg');
+    background-position: 0 0;
+    background-size: cover;
+   
+}
+
+.top-bar {
+    background-color:#f37542;
+    padding: 0px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.section-spacing{
+    padding:  1rem 0 ;
+}
+
+.section-spacing img.box-img {
+    padding: 2rem;
+}
+.para{
+    padding: 1rem;
+    
+}
+
+
+.carousel .carousel-item {
+    height: 420px !important;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 420px !important;
+  }
+
+
+
+/*--navigation--*/
+.navbar { padding: 0; }
+.navbar-nav .nav-item.dropdown .dropdown-menu { background: #ffffff; padding: 0; border: none; margin-top: 1rem; -webkit-box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15) !important; box-shadow: 0 0.5rem 1rem rgba(110, 0, 255, .15) !important; }
+.navbar-brand { margin-right: 0; }
+header .navbar-nav .nav-item { margin: 0 15px }
+.navbar-nav .nav-link { font-weight: 500; padding: 0 !important; border-radius: 0; text-transform: capitalize; position: relative; }
+.navbar-dark #header-wrap.fixed-header { background: #1360ef !important }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show > .nav-link, .dropdown-item:focus, .dropdown-item:hover { color: #1360ef; }
+
+
+
+.base-footer {
+    font-size: 10px;
+    padding: 1rem;
+    color: #878787 !important;
+}
+
+
+.square {
+   
+    background: teal;
+
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.square-transition {
+    opacity: 1;
+    background: none;
+    transform: none;
+}
